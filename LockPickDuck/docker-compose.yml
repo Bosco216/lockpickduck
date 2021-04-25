@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  lpd:
+    build: .
+    ports:
+      - "8989:80"
+    volumes:
+      - ./html:/var/www/html
